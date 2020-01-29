@@ -1,8 +1,18 @@
 #ifndef VISUALISATION_H
 # define VISUALISATION_H
 
-# include "libft/includes/libft.h"
+# define ANT (1 << 0)
+# define ROOMS (1 << 1)
+# define START (1 << 2)
+# define END (1 << 3)
+# define LINK (1 << 4)
+# define START_ROOM (1 << 5)
+# define END_ROOM (1 << 6)
+
+
+# include "../libft/includes/libft.h"
 # include <stdbool.h>
+
 //
 //typedef struct		s_vsual_tools
 //{
@@ -26,6 +36,7 @@
 //}					t_vsual_tools;
 //
 
+
 typedef struct			s_room
 {
 	char				*name;
@@ -38,6 +49,35 @@ typedef struct			s_room
 	int					ant_number;
 	struct s_room		*next;
 }						t_room;
+
+
+typedef struct			s_link
+{
+	t_room				*start;
+	t_room				*end;
+	struct s_link		*next;
+	struct s_link		*prev;
+}						t_link;
+
+
+typedef struct		s_input
+{
+	int				ants_num;
+	int				rooms_num;
+	t_room			*room;
+	t_link			*link;
+	int 			start_room;
+	int 			end_room;
+	uint8_t			flag;
+}					t_input;
+
+bool	is_room(char *line);
+bool	is_link(char *line);
+bool	is_ant_num(char *line);
+bool	is_result_row(char *line);
+bool	is_type_of_room(char *line, t_input *input);
+bool	is_comment(char *line);
+
 
 typedef struct			s_sizes
 {
@@ -56,21 +96,7 @@ typedef struct			s_ant
 	struct s_ant		*next;
 }						t_ant;
 
-typedef struct			s_link
-{
-	t_room				*start;
-	t_room				*end;
-	struct s_link		*next;
-	struct s_link		*prev;
-}						t_link;
 
-typedef struct		s_input
-{
-	int				ants_num;
-	int				rooms_num;
-	t_room			*room;
-	t_link			*link;
-}					t_input;
 
 typedef struct		s_stack
 {

@@ -1,6 +1,6 @@
 
 
-#include "visualisation.h"
+#include "../includes/visualisation.h"
 
 #include <stdio.h>
 
@@ -63,6 +63,7 @@ void	calc_rooms_size(int max_x, int max_y, t_sizes *sizes)
 	sizes->room_hight = free_space_h / max_y;
 	keep_w_to_h_ratio(sizes);
 }
+
 //
 //void 	process_input()
 //{
@@ -72,13 +73,6 @@ void	calc_rooms_size(int max_x, int max_y, t_sizes *sizes)
 //	save_ants_trecks();
 //}
 
-//
-//int		main(int ac, char **av)
-//{
-//
-//	process_input();
-//	animate_our_sollution();
-//}
 void	try_functions()
 {
 	t_sizes	sizes;
@@ -92,8 +86,42 @@ void	try_functions()
 	convert_coords(&sizes, room);
 }
 
-void	create_room(t_room *room, t_input *input)
+bool	can_i_create(t_input *input)
 {
+	if (input->flag & ANT)
+		return true;
+	return false;
+}
+
+bool	save_room(t_room *room, t_input *input)
+{
+	if (!can_i_create(input))
+		return NULL;
+	else
+	{
+		if (input->flag & ROOMS)
+			input->flag |= ROOMS;
+		if (input->flag & START)
+			input->flag |= START_ROOM;
+		if (input->flag & END)
+			input->flag |= END_ROOM;
+		if (input->room != NULL)
+			input->room = input->room->next;
+		input->room = room;
+	}
+	//ERROR
+}
+
+
+t_room		*create_room(t_input *input, char *line)
+{
+	char	*name;
+	int		x;
+	int 	y;
+	t_room	*room;
+
+	if (!can_i_create(input))
+		return NULL;
 	room = (t_room *)malloc(sizeof(t_room));
 	room->next = NULL;
 	room->name = "";
@@ -102,11 +130,66 @@ void	create_room(t_room *room, t_input *input)
 	room->ant_number = 0;
 	room->input_links = 0;
 	room->output_links = 0;
+	return (room);
 }
 
-void	parse_input(t_input *input)
+bool	is_free_line(char *line)
 {
-	input->room
+	if (!ft_strcmp(line, "\n"))
+		return false;
+	return true;
+}
+
+void	save_number_of_ants(t_input *input, int ant_num)
+{
+	if (!can_i_create(input))
+	{
+		input->flag |= ANT;
+		input->ants_num = ant_num;
+	}
+	//ERROR
+}
+
+
+int		parse_input(t_input *input)
+{
+	char		*line;
+	int 		line_index;
+
+	line_index = 0;
+	while (get_next_line(0, &line) > 0)
+	{
+		if (!*line)
+			break ;
+		if (is_ant_num(line) || is_room(line) || is_link(line) || is_result_row(line) ||
+							is_type_of_room(line, input) || is_comment(line))
+		{
+			if (is_ant_num(line))
+				save_number_of_ants(input, ft_atoi(line));
+			else if (is_room(line)) //Узнать тонкости валидации ввода
+				save_room(create_room(input, line), input);
+			else if (is_comment(line))
+				;
+			else if (is_type_of_room(line, input))
+				;
+			else if (is_link(line))
+				;
+			else
+				//Error
+			line_index += 1;
+		}
+		free(line);
+	}
+	return (1);
+}
+
+void	initialize_vars(t_input *input)
+{
+	input->ants_num = -1;
+	input->rooms_num = -1;
+	input->start_room = -1;
+	input->end_room = -1;
+	input->flag = 0b01100000;
 }
 
 int		main(int ac, char **av)
@@ -114,8 +197,7 @@ int		main(int ac, char **av)
 	t_input 	input;
 	t_room		room;
 
-
+	initialize_vars(&input);
 	parse_input(&input);
-	create_room(&room, &input);
-	try_functions();
+	//	animate_our_sollution();
 }

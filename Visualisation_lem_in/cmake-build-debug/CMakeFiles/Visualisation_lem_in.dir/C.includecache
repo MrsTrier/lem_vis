@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
+../libft/includes/libft.h
+/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
+stdbool.h
+-
+
 /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
 libft.h
 /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
@@ -20,15 +26,7 @@ limits.h
 get_next_line.h
 /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/main.c
-visualisation.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/visualisation.h
-stdio.h
--
-
-/Users/mcanhand/lem_vis/Visualisation_lem_in/visualisation.h
-libft/includes/libft.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
-stdbool.h
--
+/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/validation.c
+../includes/visualisation.h
+/Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
 
