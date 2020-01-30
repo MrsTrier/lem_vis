@@ -21,6 +21,8 @@ CMakeFiles/Visualisation_lem_in.dir/libft/ft_create_elem.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/ft_create_elem.c
+CMakeFiles/Visualisation_lem_in.dir/libft/ft_freetwodarr.c.o
+ /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/ft_freetwodarr.c
 CMakeFiles/Visualisation_lem_in.dir/libft/ft_isalnum.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
@@ -257,6 +259,11 @@ CMakeFiles/Visualisation_lem_in.dir/libft/is_int.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/is_int.c
+CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o
+ ../includes/visualisation.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c
 CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o
  /Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h

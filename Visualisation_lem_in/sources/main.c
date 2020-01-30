@@ -95,19 +95,30 @@ bool	can_i_create(t_input *input)
 
 bool	save_room(t_room *room, t_input *input)
 {
+	t_room **room_pr;
+
+	*room_pr = input->room;
 	if (!can_i_create(input))
 		return NULL;
 	else
 	{
-		if (input->flag & ROOMS)
-			input->flag |= ROOMS;
 		if (input->flag & START)
 			input->flag |= START_ROOM;
 		if (input->flag & END)
 			input->flag |= END_ROOM;
-		if (input->room != NULL)
-			input->room = input->room->next;
-		input->room = room;
+		while (*room_pr != NULL)
+			*room_pr = (*room_pr)->next;
+		*room_pr = room;
+		//		while (input->room != NULL)
+//			input->room = input->room->next;
+//		input->room = room_pr;
+		if (!(input->flag & ROOMS))
+		{
+			input->flag |= ROOMS;
+			input->pr = input->room;
+		}
+		printf("=== I saved room with name %s!!! ===\n", room->name);
+		printf("=== Pointer is now on room %s!!! ===\n", (input->pr)->name);
 	}
 	//ERROR
 }
@@ -119,17 +130,21 @@ t_room		*create_room(t_input *input, char *line)
 	int		x;
 	int 	y;
 	t_room	*room;
+	char	**objs;
 
 	if (!can_i_create(input))
 		return NULL;
+	objs = ft_strsplit(line, ' ');
 	room = (t_room *)malloc(sizeof(t_room));
 	room->next = NULL;
-	room->name = "";
-	room->x = 0;
-	room->y = 0;
+	room->name = ft_strdup(objs[0]);
+	room->x = ft_atoi(objs[1]);
+	room->y = ft_atoi(objs[2]);
 	room->ant_number = 0;
 	room->input_links = 0;
 	room->output_links = 0;
+	free_arr(objs);
+	free(objs);
 	return (room);
 }
 
@@ -146,6 +161,7 @@ void	save_number_of_ants(t_input *input, int ant_num)
 	{
 		input->flag |= ANT;
 		input->ants_num = ant_num;
+		printf("\n%s\n", "=== I know how many ants!!! ===");
 	}
 	//ERROR
 }
@@ -190,6 +206,13 @@ void	initialize_vars(t_input *input)
 	input->start_room = -1;
 	input->end_room = -1;
 	input->flag = 0b01100000;
+	input->room = NULL;
+	input->pr = (input->room);
+}
+
+void	free_rooms(t_input *input)
+{
+	free_room(input);
 }
 
 int		main(int ac, char **av)
@@ -199,5 +222,6 @@ int		main(int ac, char **av)
 
 	initialize_vars(&input);
 	parse_input(&input);
+	free_rooms(&input);
 	//	animate_our_sollution();
 }

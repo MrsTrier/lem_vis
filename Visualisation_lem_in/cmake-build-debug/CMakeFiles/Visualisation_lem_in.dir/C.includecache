@@ -26,7 +26,9 @@ limits.h
 get_next_line.h
 /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/validation.c
+/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/main.c
 ../includes/visualisation.h
 /Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
+stdio.h
+-
 

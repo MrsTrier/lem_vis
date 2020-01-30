@@ -69,6 +69,8 @@ typedef struct		s_input
 	int 			start_room;
 	int 			end_room;
 	uint8_t			flag;
+	t_room			*pr;
+
 }					t_input;
 
 bool	is_room(char *line);
@@ -113,5 +115,9 @@ typedef struct		s_stack
 	unsigned		flag;
 
 }					t_stack;
+
+
+
+void	free_room(t_input *input);
 
 #endif

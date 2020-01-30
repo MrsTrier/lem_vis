@@ -258,6 +258,33 @@ libft/ft_create_elem.c.s:
 	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/libft/ft_create_elem.c.s
 .PHONY : libft/ft_create_elem.c.s
 
+libft/ft_freetwodarr.o: libft/ft_freetwodarr.c.o
+
+.PHONY : libft/ft_freetwodarr.o
+
+# target to build an object file
+libft/ft_freetwodarr.c.o:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/libft/ft_freetwodarr.c.o
+.PHONY : libft/ft_freetwodarr.c.o
+
+libft/ft_freetwodarr.i: libft/ft_freetwodarr.c.i
+
+.PHONY : libft/ft_freetwodarr.i
+
+# target to preprocess a source file
+libft/ft_freetwodarr.c.i:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/libft/ft_freetwodarr.c.i
+.PHONY : libft/ft_freetwodarr.c.i
+
+libft/ft_freetwodarr.s: libft/ft_freetwodarr.c.s
+
+.PHONY : libft/ft_freetwodarr.s
+
+# target to generate assembly for a file
+libft/ft_freetwodarr.c.s:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/libft/ft_freetwodarr.c.s
+.PHONY : libft/ft_freetwodarr.c.s
+
 libft/ft_isalnum.o: libft/ft_isalnum.c.o
 
 .PHONY : libft/ft_isalnum.o
@@ -1878,6 +1905,33 @@ libft/is_int.c.s:
 	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/libft/is_int.c.s
 .PHONY : libft/is_int.c.s
 
+sources/free_funcs.o: sources/free_funcs.c.o
+
+.PHONY : sources/free_funcs.o
+
+# target to build an object file
+sources/free_funcs.c.o:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o
+.PHONY : sources/free_funcs.c.o
+
+sources/free_funcs.i: sources/free_funcs.c.i
+
+.PHONY : sources/free_funcs.i
+
+# target to preprocess a source file
+sources/free_funcs.c.i:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.i
+.PHONY : sources/free_funcs.c.i
+
+sources/free_funcs.s: sources/free_funcs.c.s
+
+.PHONY : sources/free_funcs.s
+
+# target to generate assembly for a file
+sources/free_funcs.c.s:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.s
+.PHONY : sources/free_funcs.c.s
+
 sources/main.o: sources/main.c.o
 
 .PHONY : sources/main.o
@@ -2010,6 +2064,9 @@ help:
 	@echo "... libft/ft_create_elem.o"
 	@echo "... libft/ft_create_elem.i"
 	@echo "... libft/ft_create_elem.s"
+	@echo "... libft/ft_freetwodarr.o"
+	@echo "... libft/ft_freetwodarr.i"
+	@echo "... libft/ft_freetwodarr.s"
 	@echo "... libft/ft_isalnum.o"
 	@echo "... libft/ft_isalnum.i"
 	@echo "... libft/ft_isalnum.s"
@@ -2190,6 +2247,9 @@ help:
 	@echo "... libft/is_int.o"
 	@echo "... libft/is_int.i"
 	@echo "... libft/is_int.s"
+	@echo "... sources/free_funcs.o"
+	@echo "... sources/free_funcs.i"
+	@echo "... sources/free_funcs.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"

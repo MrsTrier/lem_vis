@@ -102,6 +102,9 @@
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/ft_create_elem.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
+		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/ft_freetwodarr.c">
+			<Option target="Visualisation_lem_in"/>
+		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/ft_isalnum.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
@@ -286,6 +289,9 @@
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/is_int.c">
+			<Option target="Visualisation_lem_in"/>
+		</Unit>
+		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/main.c">
