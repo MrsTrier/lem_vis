@@ -64,26 +64,28 @@ void	calc_rooms_size(int max_x, int max_y, t_sizes *sizes)
 	keep_w_to_h_ratio(sizes);
 }
 
-//
-//void 	process_input()
-//{
-//	save_number_of_ants();
-//	save_the_rooms();
-//	save_the_links();
-//	save_ants_trecks();
-//}
-
-void	try_functions()
+void push_new_room(t_room **roomlst, t_room *room)
 {
-	t_sizes	sizes;
-	t_room *room;
+	t_room **head;
+	t_room	*pr;
 
-	room = (t_room *)malloc(sizeof(t_room));
-	room->y = 0;
-	room->x = 4;
-	room->name = "1";
-	calc_rooms_size(5, 7, &sizes);
-	convert_coords(&sizes, room);
+	pr = *roomlst;
+	head = roomlst;
+	if (*head)
+	{
+		while (pr->next != NULL)
+			pr = pr->next;
+	}
+	if (!*head)
+	{
+		*head = room;
+		(*head)->next = NULL;
+	}
+	else
+	{
+		pr->next = room;
+		pr->next->next = NULL;
+	}
 }
 
 bool	can_i_create(t_input *input)
@@ -95,30 +97,19 @@ bool	can_i_create(t_input *input)
 
 bool	save_room(t_room *room, t_input *input)
 {
-	t_room **room_pr;
-
-	*room_pr = input->room;
 	if (!can_i_create(input))
 		return NULL;
 	else
 	{
+		if (!(input->flag & ROOMS))
+			input->flag |= ROOMS;
 		if (input->flag & START)
 			input->flag |= START_ROOM;
 		if (input->flag & END)
 			input->flag |= END_ROOM;
-		while (*room_pr != NULL)
-			*room_pr = (*room_pr)->next;
-		*room_pr = room;
-		//		while (input->room != NULL)
-//			input->room = input->room->next;
-//		input->room = room_pr;
-		if (!(input->flag & ROOMS))
-		{
-			input->flag |= ROOMS;
-			input->pr = input->room;
-		}
+		push_new_room(&(input->room), room);
 		printf("=== I saved room with name %s!!! ===\n", room->name);
-		printf("=== Pointer is now on room %s!!! ===\n", (input->pr)->name);
+		printf("=== Pointer is now on room %s!!! ===\n", (input->room)->name);
 	}
 	//ERROR
 }
@@ -126,9 +117,6 @@ bool	save_room(t_room *room, t_input *input)
 
 t_room		*create_room(t_input *input, char *line)
 {
-	char	*name;
-	int		x;
-	int 	y;
 	t_room	*room;
 	char	**objs;
 
@@ -148,13 +136,6 @@ t_room		*create_room(t_input *input, char *line)
 	return (room);
 }
 
-bool	is_free_line(char *line)
-{
-	if (!ft_strcmp(line, "\n"))
-		return false;
-	return true;
-}
-
 void	save_number_of_ants(t_input *input, int ant_num)
 {
 	if (!can_i_create(input))
@@ -170,9 +151,7 @@ void	save_number_of_ants(t_input *input, int ant_num)
 int		parse_input(t_input *input)
 {
 	char		*line;
-	int 		line_index;
 
-	line_index = 0;
 	while (get_next_line(0, &line) > 0)
 	{
 		if (!*line)
@@ -182,7 +161,7 @@ int		parse_input(t_input *input)
 		{
 			if (is_ant_num(line))
 				save_number_of_ants(input, ft_atoi(line));
-			else if (is_room(line)) //Узнать тонкости валидации ввода
+			else if (is_room(line))
 				save_room(create_room(input, line), input);
 			else if (is_comment(line))
 				;
@@ -191,8 +170,7 @@ int		parse_input(t_input *input)
 			else if (is_link(line))
 				;
 			else
-				//Error
-			line_index += 1;
+				terminate();
 		}
 		free(line);
 	}

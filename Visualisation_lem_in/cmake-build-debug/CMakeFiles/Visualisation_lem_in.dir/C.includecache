@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
+../includes/visualisation.h
 ../libft/includes/libft.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
+../libft/includes/libft.h
 stdbool.h
 -
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
+../libft/includes/get_next_line.h
 libft.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
+../libft/includes/libft.h
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
+../libft/includes/libft.h
 stdlib.h
 -
 unistd.h
@@ -24,11 +24,9 @@ unistd.h
 limits.h
 -
 get_next_line.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
+../libft/includes/get_next_line.h
 
-/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/main.c
-../includes/visualisation.h
-/Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
-stdio.h
--
+/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c
+visualisation.h
+/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/visualisation.h
 
