@@ -71,10 +71,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/get_next_line.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/libft/get_next_line.c.o"
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/libft/is_int.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/libft/is_int.c.o"
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o"
+  "/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o"
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/main.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o"
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/validation.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o"
   "/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/vs_main.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o"
-  "/Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c" "/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/trial.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

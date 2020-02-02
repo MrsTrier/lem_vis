@@ -66,10 +66,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Visualisation_lem_in.dir/libft/get_next_line.c.o"
   "CMakeFiles/Visualisation_lem_in.dir/libft/is_int.c.o"
   "CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o"
+  "CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o"
   "CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o"
   "CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o"
   "CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o"
-  "CMakeFiles/Visualisation_lem_in.dir/trial.c.o"
   "Visualisation_lem_in"
   "Visualisation_lem_in.pdb"
 )

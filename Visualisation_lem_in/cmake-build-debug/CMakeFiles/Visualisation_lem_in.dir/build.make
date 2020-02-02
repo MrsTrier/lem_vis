@@ -967,18 +967,18 @@ CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/vs_main.c -o CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.s
 
-CMakeFiles/Visualisation_lem_in.dir/trial.c.o: CMakeFiles/Visualisation_lem_in.dir/flags.make
-CMakeFiles/Visualisation_lem_in.dir/trial.c.o: ../trial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Visualisation_lem_in.dir/trial.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Visualisation_lem_in.dir/trial.c.o   -c /Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: CMakeFiles/Visualisation_lem_in.dir/flags.make
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: ../sources/helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o   -c /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c
 
-CMakeFiles/Visualisation_lem_in.dir/trial.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Visualisation_lem_in.dir/trial.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c > CMakeFiles/Visualisation_lem_in.dir/trial.c.i
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c > CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.i
 
-CMakeFiles/Visualisation_lem_in.dir/trial.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Visualisation_lem_in.dir/trial.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c -o CMakeFiles/Visualisation_lem_in.dir/trial.c.s
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c -o CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.s
 
 # Object files for target Visualisation_lem_in
 Visualisation_lem_in_OBJECTS = \
@@ -1052,7 +1052,7 @@ Visualisation_lem_in_OBJECTS = \
 "CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o" \
 "CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o" \
 "CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o" \
-"CMakeFiles/Visualisation_lem_in.dir/trial.c.o"
+"CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o"
 
 # External object files for target Visualisation_lem_in
 Visualisation_lem_in_EXTERNAL_OBJECTS =
@@ -1127,7 +1127,7 @@ Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o
 Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o
 Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o
 Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o
-Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/trial.c.o
+Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o
 Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/build.make
 Visualisation_lem_in: CMakeFiles/Visualisation_lem_in.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mcanhand/lem_vis/Visualisation_lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable Visualisation_lem_in"

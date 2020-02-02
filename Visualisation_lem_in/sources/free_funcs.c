@@ -8,6 +8,10 @@ void	free_room(t_input *input)
 		free(input->room);
 		input->room = input->room->next;
 	}
-//	free_arr(rooms_lst);
-//	free(rooms_lst);
+}
+
+
+void	free_rooms(t_input *input)
+{
+	free_room(input);
 }

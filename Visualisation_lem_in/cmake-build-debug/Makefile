@@ -1932,6 +1932,33 @@ sources/free_funcs.c.s:
 	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.s
 .PHONY : sources/free_funcs.c.s
 
+sources/helper.o: sources/helper.c.o
+
+.PHONY : sources/helper.o
+
+# target to build an object file
+sources/helper.c.o:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o
+.PHONY : sources/helper.c.o
+
+sources/helper.i: sources/helper.c.i
+
+.PHONY : sources/helper.i
+
+# target to preprocess a source file
+sources/helper.c.i:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.i
+.PHONY : sources/helper.c.i
+
+sources/helper.s: sources/helper.c.s
+
+.PHONY : sources/helper.s
+
+# target to generate assembly for a file
+sources/helper.c.s:
+	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.s
+.PHONY : sources/helper.c.s
+
 sources/main.o: sources/main.c.o
 
 .PHONY : sources/main.o
@@ -2012,33 +2039,6 @@ sources/vs_main.s: sources/vs_main.c.s
 sources/vs_main.c.s:
 	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.s
 .PHONY : sources/vs_main.c.s
-
-trial.o: trial.c.o
-
-.PHONY : trial.o
-
-# target to build an object file
-trial.c.o:
-	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/trial.c.o
-.PHONY : trial.c.o
-
-trial.i: trial.c.i
-
-.PHONY : trial.i
-
-# target to preprocess a source file
-trial.c.i:
-	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/trial.c.i
-.PHONY : trial.c.i
-
-trial.s: trial.c.s
-
-.PHONY : trial.s
-
-# target to generate assembly for a file
-trial.c.s:
-	$(MAKE) -f CMakeFiles/Visualisation_lem_in.dir/build.make CMakeFiles/Visualisation_lem_in.dir/trial.c.s
-.PHONY : trial.c.s
 
 # Help Target
 help:
@@ -2250,6 +2250,9 @@ help:
 	@echo "... sources/free_funcs.o"
 	@echo "... sources/free_funcs.i"
 	@echo "... sources/free_funcs.s"
+	@echo "... sources/helper.o"
+	@echo "... sources/helper.i"
+	@echo "... sources/helper.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"
@@ -2259,9 +2262,6 @@ help:
 	@echo "... sources/vs_main.o"
 	@echo "... sources/vs_main.i"
 	@echo "... sources/vs_main.s"
-	@echo "... trial.o"
-	@echo "... trial.i"
-	@echo "... trial.s"
 .PHONY : help
 
 

@@ -1,6 +1,10 @@
 #ifndef VISUALISATION_H
 # define VISUALISATION_H
 
+
+const int SCREEN_WIDTH = 1940;
+const int SCREEN_HEIGHT = 1080;
+
 # define ANT (1 << 0)
 # define ROOMS (1 << 1)
 # define START (1 << 2)
@@ -66,8 +70,8 @@ typedef struct		s_input
 	int				rooms_num;
 	t_room			*room;
 	t_link			*link;
-	int 			start_room;
-	int 			end_room;
+	char			*start_room;
+	char 			*end_room;
 	uint8_t			flag;
 	t_room			*pr;
 
@@ -119,5 +123,9 @@ typedef struct		s_stack
 
 
 void	free_room(t_input *input);
+void	free_rooms(t_input *input);
+void	error_found(char *s);
+void	set_flags(char *line, uint8_t *flag);
+bool	save_room(t_room *room, t_input *input);
 
 #endif

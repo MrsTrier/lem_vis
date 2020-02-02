@@ -264,6 +264,12 @@ CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o: ../libft/includes/ge
 CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o: ../libft/includes/libft.h
 CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o: ../sources/free_funcs.c
 
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: ../includes/visualisation.h
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: ../libft/includes/libft.h
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o: ../sources/helper.c
+
+CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o: ../includes/errors.h
 CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o: ../includes/visualisation.h
 CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o: ../libft/includes/libft.h
@@ -275,6 +281,4 @@ CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o: ../libft/includes/li
 CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o: ../sources/validation.c
 
 CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o: ../sources/vs_main.c
-
-CMakeFiles/Visualisation_lem_in.dir/trial.c.o: ../trial.c
 

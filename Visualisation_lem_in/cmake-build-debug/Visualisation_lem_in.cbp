@@ -294,6 +294,9 @@
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
+		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c">
+			<Option target="Visualisation_lem_in"/>
+		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/main.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
@@ -301,9 +304,6 @@
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/sources/vs_main.c">
-			<Option target="Visualisation_lem_in"/>
-		</Unit>
-		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c">
 			<Option target="Visualisation_lem_in"/>
 		</Unit>
 		<Unit filename="/Users/mcanhand/lem_vis/Visualisation_lem_in/CMakeLists.txt">

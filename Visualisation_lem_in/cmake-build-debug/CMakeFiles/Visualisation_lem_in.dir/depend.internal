@@ -264,7 +264,13 @@ CMakeFiles/Visualisation_lem_in.dir/sources/free_funcs.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/free_funcs.c
+CMakeFiles/Visualisation_lem_in.dir/sources/helper.c.o
+ ../includes/visualisation.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/helper.c
 CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o
+ ../includes/errors.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/includes/visualisation.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/get_next_line.h
  /Users/mcanhand/lem_vis/Visualisation_lem_in/libft/includes/libft.h
@@ -276,5 +282,3 @@ CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o
  /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/validation.c
 CMakeFiles/Visualisation_lem_in.dir/sources/vs_main.c.o
  /Users/mcanhand/lem_vis/Visualisation_lem_in/sources/vs_main.c
-CMakeFiles/Visualisation_lem_in.dir/trial.c.o
- /Users/mcanhand/lem_vis/Visualisation_lem_in/trial.c

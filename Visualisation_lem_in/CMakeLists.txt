@@ -80,4 +80,6 @@ add_executable(Visualisation_lem_in
         sources/main.c
         sources/validation.c
         sources/vs_main.c
-        trial.c)
+        sources/helper.c
+        sources/save_room.c
+        )

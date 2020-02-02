@@ -90,21 +90,25 @@ bool	is_result_row(char *line)
 
 }
 
+void	set_flags(char *line, uint8_t *flag)
+{
+	if (line[2] == 's')
+	{
+		*flag |= START;
+		*flag &= ~START_ROOM;
+	}
+	else if (line[2] == 'e')
+	{
+		*flag |= END;
+		*flag &= ~END_ROOM;
+	}
+}
+
 bool	is_type_of_room(char *line, t_input *input)
 {
-	if (!ft_strcmp(line, "##start"))
-	{
-		input->flag |= START;
-		input->flag &= ~START_ROOM;
+	if (!ft_strcmp(line, "##start") || !ft_strcmp(line, "##end"))
 		return (true);
-	}
-	else if (!ft_strcmp(line, "##end"))
-	{
-		input->flag |= END;
-		input->flag &= ~END_ROOM;
-		return (true);
-	}
-	return (true);
+	return (false);
 }
 
 bool	is_comment(char *line)

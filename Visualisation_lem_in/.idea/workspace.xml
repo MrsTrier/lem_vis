@@ -14,11 +14,24 @@
   <component name="ChangeListManager">
     <list default="true" id="835e8df0-0371-45e0-9b83-beac3a48424a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Visualisation_lem_in.dir/sources/validation.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in.dSYM/Contents/Resources/DWARF/Visualisation_lem_in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Visualisation_lem_in.dSYM/Contents/Resources/DWARF/Visualisation_lem_in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/visualisation.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/visualisation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/free_funcs.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/free_funcs.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/validation.c" beforeDir="false" afterPath="$PROJECT_DIR$/sources/validation.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +132,9 @@
       <workItem from="1580377998947" duration="7046000" />
       <workItem from="1580560447347" duration="130000" />
       <workItem from="1580560751057" duration="4419000" />
-      <workItem from="1580568096185" duration="2624000" />
+      <workItem from="1580568096185" duration="2869000" />
+      <workItem from="1580640617066" duration="3957000" />
+      <workItem from="1580650201830" duration="5618000" />
     </task>
     <servers />
   </component>
@@ -140,52 +155,52 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="422" height="466" key="DebuggerActiveHint/0.23.2560.1337@0.23.2560.1337" timestamp="1580384046539" />
-    <state width="2518" height="576" key="GridCell.Tab.0.bottom" timestamp="1580568748692">
+    <state width="2518" height="367" key="GridCell.Tab.0.bottom" timestamp="1580646844628">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.0.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1580568748692" />
+    <state width="2518" height="367" key="GridCell.Tab.0.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844628" />
     <state width="2518" height="468" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.0.bottom/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170663" />
-    <state width="2518" height="576" key="GridCell.Tab.0.center" timestamp="1580568748691">
+    <state width="2518" height="367" key="GridCell.Tab.0.center" timestamp="1580646844627">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.0.center/0.0.2560.1360@0.0.2560.1360" timestamp="1580568748691" />
+    <state width="2518" height="367" key="GridCell.Tab.0.center/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844627" />
     <state width="2518" height="468" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.0.center/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170663" />
-    <state width="2518" height="576" key="GridCell.Tab.0.left" timestamp="1580568748690">
+    <state width="2518" height="367" key="GridCell.Tab.0.left" timestamp="1580646844626">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.0.left/0.0.2560.1360@0.0.2560.1360" timestamp="1580568748690" />
+    <state width="2518" height="367" key="GridCell.Tab.0.left/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844626" />
     <state width="2518" height="468" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176171" />
     <state width="1590" height="541" key="GridCell.Tab.0.left/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170662" />
-    <state width="2518" height="576" key="GridCell.Tab.0.right" timestamp="1580568748691">
+    <state width="2518" height="367" key="GridCell.Tab.0.right" timestamp="1580646844627">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.0.right/0.0.2560.1360@0.0.2560.1360" timestamp="1580568748691" />
+    <state width="2518" height="367" key="GridCell.Tab.0.right/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844627" />
     <state width="2518" height="468" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.0.right/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170663" />
-    <state width="2518" height="576" key="GridCell.Tab.1.bottom" timestamp="1580568744354">
+    <state width="2518" height="367" key="GridCell.Tab.1.bottom" timestamp="1580646844629">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.1.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1580568744354" />
+    <state width="2518" height="367" key="GridCell.Tab.1.bottom/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844629" />
     <state width="2518" height="468" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.1.bottom/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170664" />
-    <state width="2518" height="576" key="GridCell.Tab.1.center" timestamp="1580568744353">
+    <state width="2518" height="367" key="GridCell.Tab.1.center" timestamp="1580646844629">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.1.center/0.0.2560.1360@0.0.2560.1360" timestamp="1580568744353" />
+    <state width="2518" height="367" key="GridCell.Tab.1.center/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844629" />
     <state width="2518" height="468" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.1.center/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170664" />
-    <state width="2518" height="576" key="GridCell.Tab.1.left" timestamp="1580568744352">
+    <state width="2518" height="367" key="GridCell.Tab.1.left" timestamp="1580646844628">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.1.left/0.0.2560.1360@0.0.2560.1360" timestamp="1580568744352" />
+    <state width="2518" height="367" key="GridCell.Tab.1.left/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844628" />
     <state width="2518" height="468" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.1.left/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170663" />
-    <state width="2518" height="576" key="GridCell.Tab.1.right" timestamp="1580568744353">
+    <state width="2518" height="367" key="GridCell.Tab.1.right" timestamp="1580646844629">
       <screen x="0" y="0" width="2560" height="1360" />
     </state>
-    <state width="2518" height="576" key="GridCell.Tab.1.right/0.0.2560.1360@0.0.2560.1360" timestamp="1580568744353" />
+    <state width="2518" height="367" key="GridCell.Tab.1.right/0.0.2560.1360@0.0.2560.1360" timestamp="1580646844629" />
     <state width="2518" height="468" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580387176172" />
     <state width="1590" height="541" key="GridCell.Tab.1.right/0.23.2880.1517@0.23.2880.1517" timestamp="1579699170664" />
     <state width="569" height="173" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1580305050432">
@@ -202,11 +217,11 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="752" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1580145563799" />
-    <state x="780" y="452" key="com.intellij.ide.util.TipDialog" timestamp="1580568104736">
-      <screen x="0" y="0" width="2560" height="1360" />
+    <state x="780" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1580640941910">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="780" y="452" key="com.intellij.ide.util.TipDialog/0.0.2560.1360@0.0.2560.1360" timestamp="1580568104736" />
-    <state x="780" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580377999296" />
+    <state x="780" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580640941910" />
     <state x="878" y="527" key="com.intellij.ide.util.TipDialog/0.23.2880.1517@0.23.2880.1517" timestamp="1579685802966" />
   </component>
   <component name="XDebuggerManager">
@@ -244,68 +259,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>49</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>57</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>31</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>200</line>
+          <line>161</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>201</line>
+          <line>162</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>195</line>
+          <line>156</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>150</line>
+          <line>115</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>154</line>
+          <line>119</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>177</line>
+          <line>142</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>204</line>
+          <line>165</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>101</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>99</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>192</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/free_funcs.c</url>
@@ -324,13 +309,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>202</line>
+          <line>163</line>
           <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>190</line>
-          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/free_funcs.c</url>
@@ -339,23 +319,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>176</line>
+          <line>141</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>193</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>111</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>97</line>
-          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/libft/ft_memmove.c</url>
@@ -379,18 +344,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>109</line>
-          <option name="timeStamp" value="91" />
+          <line>133</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>66</line>
-          <option name="timeStamp" value="92" />
+          <url>file://$PROJECT_DIR$/sources/validation.c</url>
+          <line>92</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/sources/main.c</url>
-          <line>191</line>
-          <option name="timeStamp" value="93" />
+          <url>file://$PROJECT_DIR$/sources/validation.c</url>
+          <line>104</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/sources/validation.c</url>
+          <line>103</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
